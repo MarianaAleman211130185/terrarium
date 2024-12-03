@@ -1,0 +1,29 @@
+Código
+.import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Ubuntu:ital,wght@0,700;1,400&display=swap');
+body {
+  font-family: 'Braah One', sans-serif;
+  background-color: #F0F0F0;
+}
+h1 {
+    color: #0A6847;
+      text-align: center;
+  }
+  #left-container {
+    background-color: #eee;
+    width: 15%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    height: 100%;
+    padding: 10px;
+  }
+  
+  #right-container {
+    background-color: #eee;
+    width: 15%;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    height: 100%;
+    padding: 10px;
+  }
