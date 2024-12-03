@@ -1,29 +1,32 @@
-Código
-.import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Ubuntu:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Ubuntu:ital,wght@0,700;1,400&display=swap');
 body {
   font-family: 'Braah One', sans-serif;
   background-color: #F0F0F0;
+  margin: 0;
+  padding: 0; 
 }
 h1 {
-    color: #0A6847;
-      text-align: center;
-  }
-  #left-container {
-    background-color: #eee;
-    width: 15%;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    height: 100%;
-    padding: 10px;
-  }
-  
-  #right-container {
-    background-color: #eee;
-    width: 15%;
-    right: 0px;
-    top: 0px;
-    position: absolute;
-    height: 100%;
-    padding: 10px;
-  }
+  color: #0A6847;
+  text-align: center;
+}
+.container {
+  background-color: #eee;
+  padding: 10px;
+  height: 100%;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+/* Contenedor izquierdo */
+#left-container {
+  width: 15%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* Contenedor derecho */
+#right-container {
+  width: 15%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
